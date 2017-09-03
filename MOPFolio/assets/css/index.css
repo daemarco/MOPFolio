@@ -1,0 +1,82 @@
+.titleMO {
+    padding-top: 6px;
+}
+
+/*override bootstrap class*/
+.bg-primary {
+  color: #fff;  
+}
+
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../../images/beach_Baia-Saraceni.jpg');
+  text-align: center;
+  color: white;
+}
+
+.glyphPresentation {
+    color: lightcoral;    
+    font-size: 40px;
+    -webkit-animation-name: glyphPresentationAnime; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 140s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: glyphPresentationAnime;
+    animation-duration: 140s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes glyphPresentationAnime {
+    0%   { color:lightcoral; }
+    10%  { color:gold; }
+    20%  { color:lightgreen; }
+    30%  { color:lightblue; }
+    40%  { color:lightseagreen;}
+    50%  { color:lightpink; }
+    60%  { color:lightslategray; }
+    70%  { color:lightsteelblue; }
+    80%  { color:lightcyan; }
+    90%  { color:lightyellow; }
+    100% { color:lightsalmon; }
+}
+
+/* Standard syntax */
+@keyframes glyphPresentationAnime {
+    0%   { color:lightcoral; }
+    10%  { color:gold; }
+    20%  { color:lightgreen; }
+    30%  { color:lightblue; }
+    40%  { color:lightseagreen;}
+    50%  { color:lightpink; }
+    60%  { color:lightslategray; }
+    70%  { color:lightsteelblue; }
+    80%  { color:darkcyan; }
+    90%  { color:mediumseagreen; }
+    100% { color:lightsalmon; }
+}
+
+.portfolio-section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.skills-section {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.gradient-text-black {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, white), color-stop(1, #120505));
+    /*background-image: gradient( linear, left top, right top, color-stop(0, white), color-stop(1, #120505));*/
+    color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}

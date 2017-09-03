@@ -1,0 +1,56 @@
+﻿/*typed.js */
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.wrap{
+	max-width: 600px;
+	margin:150px auto;
+}
+
+.type-wrap{
+	margin:4px auto;
+	padding:10px;
+	background:#000;
+	border-radius:5px;
+	border:#CCC 1px solid;
+
+    font-family:'Courier New';
+    font-size: large;
+    font-weight: 900;
+    color: #F2F2F2;
+}
+
+/*cycle2.js*/
+
+.cycle-img {
+    position: relative;
+    display: block;    
+    height: 160px;
+    
+    margin: 0 auto;
+}
+
+.cycle-img img {
+    width: 100%;
+    height: 100%;
+}

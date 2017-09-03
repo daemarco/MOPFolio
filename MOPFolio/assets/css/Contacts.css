@@ -1,0 +1,29 @@
+﻿.contacts {
+  padding: 1em;  
+}
+.contacts .contactHead {
+  display: inline;
+  font-weight: bold;
+}
+.contacts .contactDefinition {
+  padding: .5em;
+}
+.contacts .contactDefinition .quote {
+  margin: .5em 2em;
+  padding: 0 1em;
+  color: #333;
+  border-left: 2px #eee solid;
+}
+
+.contactHref {
+    font-family: 'Times New Roman', 'Courier New';
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.contactIcon {
+    width: 25px;
+    height: 25px;    
+    vertical-align: middle;    
+}
